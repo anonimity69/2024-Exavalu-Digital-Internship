@@ -2,7 +2,7 @@
 <%@ page import="java.util.ArrayList"%>
 
 <select class="form-control" name="cityId">
-	<option value="0">--Select a city--</option>
+	<option value="0">--Select a cIty--</option>
 	<%
 	ArrayList<City> cityList = (ArrayList<City>) request.getAttribute("CITYLIST");
 	for (City city : cityList) {
